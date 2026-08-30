@@ -1,0 +1,11 @@
+.pio/
+.vscode/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# Auto-generated from runs/full/<model>/model.tflite via
+# scripts/embed_tflite_model.py.  Regenerate per model; ~10x the
+# source .tflite size so not worth tracking.
+src/model_data.h
